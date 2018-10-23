@@ -3,4 +3,5 @@
 ***
 
 Template Homepage:  
-![alt](https://github.com/zoecooperwei/image-library/blob/master/bootstrap1/b1-home.png)
+
+  ![alt](https://github.com/zoecooperwei/image-library/blob/master/bootstrap1/b1-home.png)
