@@ -1,0 +1,124 @@
+body {
+    /* font-family: 'Open Sans', sans-serif !important; */
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.head {
+    min-height: 400px;
+    background: url('./image/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+/* overlay background */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #8b8b8b;
+    opacity: .20;
+    /* disable all mouse events on your overlay using pointer-events:none; 
+    so the click event will 'fall through' it and the button will register it  */
+    /* make the button or any click events work */
+    pointer-events:none;
+}
+
+.line {
+    height: 2px;
+    background-color: lightgrey;
+}
+
+a:hover {
+    color: darkslategray !important;
+    transition: 0.5s all ease;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+/* sidebar */
+#sidebar {
+    z-index: 1;
+    position: fixed;
+    left: 260px;
+    width: 0px;
+    height: 100%;
+    margin-left: -260px;
+    overflow-y: auto;
+    background: #049e854f;
+    transition: all 0.5s ease;
+}
+
+#sidebar .container {
+    position: absolute;
+    top: 0;
+    width: 260px;
+    margin: 0;
+    padding: 0;
+}
+
+/* add this class to sidebar when clicking on the button */
+.toggled {
+    width: 260px !important;
+}
+
+.content {
+    /* position: absolute;
+    top: 0;
+    width: 100%; */
+    transition: 0.5s all ease;
+}
+
+.content-toggled {
+    margin-left: 260px;
+}
+
+.navbar-default{background-color: transparent;}
+
+.sidebar-brand, .list-unstyled a {
+    color: #fff !important;
+}
+
+.list-unstyled li {
+    font-size: 17px;
+}
+
+.list-unstyled li:hover {
+    
+}
+
+.list-unstyled a {
+    text-decoration: none !important;
+}
+
+.getMenu, .oldPost {
+    transition: all 0.5s ease;
+    border: 0;
+    cursor: pointer;
+}
+
+.getMenu:focus {
+    outline: none;
+}
+
+.getMenu:hover {
+    opacity: 0.8;
+}
+
+.contact li{
+    display: inline;
+}
+
+.menu {
+    letter-spacing: 2px !important;
+}
+
+.menu:hover {
+    opacity: 0.8;
+    transition: 0.5s all ease;
+}
